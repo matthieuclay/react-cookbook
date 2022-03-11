@@ -1,5 +1,8 @@
-function App() {
-  return <div className="App"></div>;
-}
+import React from "react";
+import Cookbook from "./pages/Cookbook";
+
+const App = () => {
+  return <Cookbook />;
+};
 
 export default App;
